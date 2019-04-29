@@ -2,6 +2,6 @@
 server1
 server2
 
-[instances:vars]
+[servers:vars]
 user_name=sulabh
 user_des="SRE"
