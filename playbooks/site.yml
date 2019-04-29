@@ -1,0 +1,9 @@
+---
+
+  - hosts: servers
+    gather_facts: False
+    remote_user: ansible
+    become: true
+    become_user: root
+    roles:
+      - automation-ssh-access

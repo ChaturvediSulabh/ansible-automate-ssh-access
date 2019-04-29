@@ -1,0 +1,9 @@
+---
+
+- name: Grant User
+  import_tasks: grant.yml
+  when: action == "grant"
+ 
+- name: Revoke User
+  import_tasks: revoke.yml
+  when: action == "revoke"

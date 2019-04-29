@@ -1,0 +1,7 @@
+[servers]
+server1
+server2
+
+[instances:vars]
+user_name=sulabh
+user_des="SRE"
